@@ -26,7 +26,6 @@ import java.util.Map;
 public class InputLocation extends AppCompatActivity {
     EditText latitude, longitude;
     Button setEstLocation;
-    FirebaseUser user;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     DocumentReference docRef;
@@ -84,8 +83,6 @@ public class InputLocation extends AppCompatActivity {
                     Toast.makeText(InputLocation.this, "Failed to set location.", Toast.LENGTH_SHORT).show();
                 }
             });
-
-
         }
     }
 
