@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.capstone.pakigsabotbusinessowner.R;
 import com.capstone.pakigsabotbusinessowner.Restaurant.PromoAndDeals.PromoAndDealsRestaurant;
@@ -13,6 +14,7 @@ import com.capstone.pakigsabotbusinessowner.Services.InputLocation;
 
 public class InEstLocationOrNot extends AppCompatActivity {
     Button yesBtn, noBtn;
+    ImageView backBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,11 +38,20 @@ public class InEstLocationOrNot extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getApplicationContext(), SettingUpEstablishmentRestaurant.class);
+                startActivity(in);
+            }
+        });
     }
 
     private void refs() {
         yesBtn = findViewById(R.id.yesEstLocBtn);
         noBtn = findViewById(R.id.noEstLocBtn);
+        backBtn = findViewById(R.id.backBtnSetUpEstResto);
     }
 
 

@@ -43,16 +43,16 @@
             android:id="@+id/pakigsabotSupportTxt"
             android:layout_width="149dp"
             android:layout_height="40dp"
-            android:layout_marginTop="24dp"
             android:fontFamily="@font/poppins_light"
             android:text="Help Center"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toEndOf="@+id/chatbotImage"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.026" />
 
         <ImageView
             android:id="@+id/imageView21"
@@ -93,10 +93,10 @@
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintHorizontal_bias="0.148"
             app:layout_constraintStart_toEndOf="@+id/imageView21"
             app:layout_constraintTop_toTopOf="@+id/pakigsabotSupportTxt2"
-            app:layout_constraintVertical_bias="0.042" />
+            app:layout_constraintVertical_bias="0.054" />
 
         <TextView
             android:id="@+id/message2"

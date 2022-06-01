@@ -55,8 +55,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/servicesTxt"
-        app:layout_constraintVertical_bias="0.542">
+        app:layout_constraintTop_toBottomOf="@+id/searchReservSV"
+        app:layout_constraintVertical_bias="0.179">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/reservationsRecyclerView"

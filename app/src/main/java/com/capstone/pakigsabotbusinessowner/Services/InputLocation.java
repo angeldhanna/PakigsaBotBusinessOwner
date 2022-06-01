@@ -4,14 +4,17 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.capstone.pakigsabotbusinessowner.Profile.Profile;
 import com.capstone.pakigsabotbusinessowner.R;
+import com.capstone.pakigsabotbusinessowner.Restaurant.InEstLocationOrNot;
 import com.capstone.pakigsabotbusinessowner.Restaurant.SettingUpEstablishmentRestaurant;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -26,6 +29,7 @@ import java.util.Map;
 public class InputLocation extends AppCompatActivity {
     EditText latitude, longitude;
     Button setEstLocation;
+    ImageView backInputBtn;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     DocumentReference docRef;
@@ -44,7 +48,15 @@ public class InputLocation extends AppCompatActivity {
         setEstLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               saveLatLongToDB();
+                saveLatLongToDB();
+            }
+        });
+
+        backInputBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getApplicationContext(), InEstLocationOrNot.class);
+                startActivity(in);
             }
         });
     }
@@ -54,6 +66,7 @@ public class InputLocation extends AppCompatActivity {
         latitude = findViewById(R.id.latitudeInput);
         longitude = findViewById(R.id.longitudeInput);
         setEstLocation = findViewById(R.id.setLocationBtn);
+        backInputBtn = findViewById(R.id.backInputBtn);
     }
 
     private void saveLatLongToDB() {
@@ -66,6 +79,7 @@ public class InputLocation extends AppCompatActivity {
             Toast.makeText(InputLocation.this, "Some fields are EMPTY.", Toast.LENGTH_SHORT).show();
         }
         else{
+            //Saves the updated latitude and longitude of the establishment location to DB
             docRef = fStore.collection("establishments").document(userId);
             Map<String,Object> edited = new HashMap<>();
             edited.put("est_latitude", updateLat);

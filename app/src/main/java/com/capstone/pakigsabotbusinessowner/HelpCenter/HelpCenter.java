@@ -91,7 +91,7 @@ public class HelpCenter extends AppCompatActivity {
             }
         });
 
-        // Listview Group collasped listener
+        // Listview Group collapsed listener
         expListView.setOnGroupCollapseListener(new ExpandableListView.OnGroupCollapseListener() {
 
             @Override
@@ -111,9 +111,9 @@ public class HelpCenter extends AppCompatActivity {
                                         int groupPosition, int childPosition, long id) {
                 // TODO Auto-generated method stub
                 //Declaration of variables::
-                String setUpEst = "Setup  Establishment", reserveManage = "Reservation Management", promoDealsManage = "Promo and Deals Management", estAccount = "Your Account", safety = "Safety", pakigsabot= "About Pakigsa-Bot";
-                String setUpEstData1 = "View", setUpEstData2 = "Add", setUpEstData3 = "Edit", setUpEstData4 = "Delete";
-                String reserveManageData1 = "View Reservations", reserveManageData2 = "Accept/Confirm Reservation", reserveManageData3 = "Cancel Reservation", reserveManageData4 = "Reschedule Reservation", reserveManageData5 = "Reservation History", reserveManageData6= "Delete Reservation";
+                String setUpEst = "Setup Establishment", reserveManage = "Reservation Management", promoDealsManage = "Promo and Deals Management", estAccount = "Your Account", safety = "Safety", pakigsabot= "About Pakigsa-Bot";
+                String setUpEstData1 = "SetUp Establishment Location", setUpEstData2 = "SetUp Menu Items/Services/Facilities", setUpEstData3 = "SetUp Promos and Deals", setUpEstData4 = "SetUp Rules", setUpEstData5 = "SetUp Cancellation Policy";
+                String reserveManageData1 = "View Reservations", reserveManageData2 = "Accept/Confirm Reservation", reserveManageData3 = "Cancel Reservation", reserveManageData4 = "Reservation History", reserveManageData5= "Delete Reservation";
                 String promoDealsManageData1 = "View Promo and Deals", promoDealsManageData2= "Add Promo and Deals", promoDealsManageData3= "Edit Promo and Deals", promoDealsManageData4= "Delete Promo and Deals";
                 String estAccountData1 = "Creating an Account", estAccountData2 = "Managing Account", estAccountData3 = "Account Subscription", estAccountData4 = "Account Security";
                 String safetyData = "Reporting issues";
@@ -121,11 +121,8 @@ public class HelpCenter extends AppCompatActivity {
 
                 //Alert Dialog per item::
                 if(setUpEst.equals(listDataHeader.get(groupPosition)) && setUpEstData1.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("(1) To View Menu Items/Services/Procedures/Facilities, you just" +
-                            "have to tap the services button. You will then see a button to PROCEED." +
-                            "(2) Tap that and you will be redirected to the SetUp Establishment Screen"+
-                            "There, you will the button to whether Menu Items/Services/Procedures/Facilities." +
-                            "(3) Tap the button and you'll be able to see what you have added.")
+                    builder.setMessage("Tap the second button at the bottom navigation. You will be redirected to the Setting-Up Establishment screen. Afterwards, " +
+                            "just tap the Proceed button. Then tap the SetUp Location button to set the location of your establishment.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -133,28 +130,22 @@ public class HelpCenter extends AppCompatActivity {
                             });
                     AlertDialog alert1 = builder.create();
                     //Setting the title manually
-                    alert1.setTitle("View");
+                    alert1.setTitle("SetUp Menu Items/Services/Facilities");
                     alert1.show();
                 }else if(setUpEst.equals(listDataHeader.get(groupPosition)) && setUpEstData2.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("(1) To Add Menu Items/Services/Procedures/Facilities, you just" +
-                            "have to tap the services button. You will then see a button to PROCEED." +
-                                    "(2) Tap that and you will be redirected to the SetUp Establishment Screen"+
-                                    "There, you will the button to whether Menu Items/Services/Procedures/Facilities." +
-                                    "(3) Tap the button and you'll be able to see a (+) button on the upper right corner of the screen" +
-                                    "(4) Tap the (+) button and you will be redirected to the screen where you can add Menu Items/Services/Procedures/Facilities")
+                    builder.setMessage("Tap the second button at the bottom navigation. You will be redirected to the Setting-Up Establishment screen. Afterwards, " +
+                            "just tap the Proceed button. Then tap the Menu Items/Services/Facilities button to setup your establishment's Menu Items/Services/Facilities.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                 }
                             });
                     AlertDialog alert1 = builder.create();
-                    alert1.setTitle("Add");
+                    alert1.setTitle("SetUp Menu Items/Services/Facilities");
                     alert1.show();
                 }else if(setUpEst.equals(listDataHeader.get(groupPosition)) && setUpEstData3.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("(1) To Edit Menu Items/Services/Procedures/Facilities, you just" +
-                            "have to tap the pencil-like icon beside its name." +
-                                    "(2) A pop-up dialog will appear where you can edit the details"+
-                                    "(3) Tap the UPDATE button below the details to save the update/s you have made.")
+                    builder.setMessage("Tap the second button at the bottom navigation. You will be redirected to the Setting-Up Establishment screen. Afterwards, " +
+                            "just tap the Proceed button. Then tap the Promos and Deals button to setup your establishment's Promos and Deals.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -162,11 +153,11 @@ public class HelpCenter extends AppCompatActivity {
                             });
                     AlertDialog alert1 = builder.create();
                     //Setting the title manually
-                    alert1.setTitle("Edit");
+                    alert1.setTitle("SetUp Promos and Deals");
                     alert1.show();
                 }else if(setUpEst.equals(listDataHeader.get(groupPosition)) && setUpEstData4.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("Unsubscribed Customers will be limited only to reserve upto 2 establishments per day; " +
-                            "For Subscribed Customers, they can reserve upto 3 or more establishments per day")
+                    builder.setMessage("Tap the second button at the bottom navigation. You will be redirected to the Setting-Up Establishment screen. Afterwards, " +
+                            "just tap the Proceed button. Then tap the Rules button to setup your establishment's rules.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -174,11 +165,23 @@ public class HelpCenter extends AppCompatActivity {
                             });
                     AlertDialog alert1 = builder.create();
                     //Setting the title manually
-                    alert1.setTitle("Delete");
+                    alert1.setTitle("SetUp Rules");
                     alert1.show();
-                }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData1.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("We’d love to welcome your loved ones into Pakigsa-Bot. But to help maintain transparency and trust throughout our community, " +
-                            "you can’t book on their behalf unless you're staying together.")
+                }else if(setUpEst.equals(listDataHeader.get(groupPosition)) && setUpEstData5.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
+                builder.setMessage("Tap the second button at the bottom navigation. You will be redirected to the Setting-Up Establishment screen. Afterwards, " +
+                        "just tap the Proceed button. Then tap the Cancellation Policy button to setup your establishment's cancellation policy.")
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                            }
+                        });
+                AlertDialog alert1 = builder.create();
+                //Setting the title manually
+                alert1.setTitle("SetUp Cancellation Policy");
+                alert1.show();
+            }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData1.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
+                    builder.setMessage("Tap the first button at the bottom navigation. You will be redirected to the Reservations screen. Afterwards, " +
+                            "just tap the View Reservations button.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -189,9 +192,8 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("View Reservations");
                     alert1.show();
                 }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData2.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("Keep track on a reservation by tapping the reservations feature on the home screen. " +
-                            "It contains all the reservations including its statuses being made by the customer. " +
-                            "You can also see in there the reservation history of all the completed/cancelled reservations.")
+                    builder.setMessage("If you are already in the View Reservations screen, you will see that each reservation has icons beside them." +
+                            "Just tap the (i) icon so you can see the details of the reservation. Button to Confirm the reservation is there.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -202,8 +204,9 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Accept/Confirm Reservation");
                     alert1.show();
                 }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData3.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("Whether it's changing the reservation date or time, the number of people going, or any detail, " +
-                            "a customer can alter a confirmed reservation by sending a request email to the establishment.")
+                    builder.setMessage("If you are already in the View Reservations screen, you will see that each reservation has icons beside them." +
+                            "Just tap the (i) icon so you can see the details of the reservation. Button to Cancel the reservation is there." +
+                            "Upon tapping the Cancel button, you have to input the reason as to why the reservation has been cancelled, then tap Submit.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -214,26 +217,8 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Cancel Reservation");
                     alert1.show();
                 }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData4.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("\n-In every reservation, there's a reservation status that keeps you updated (Confirmed, Cancelled or Rescheduled)," +
-                            "then Tap for its details (can be found on the Reservations Feature). " +
-                            "\n-At the right side, a confirmed status will appear which means you’re good to go! " +
-                            "\nYou’ll receive an (SMS) Notification after the confirmation and a day before the date of reservation." +
-                            "\n-Cancelled Status means that you didn't reserve a slot" +
-                            "\n-Rescheduled Status means that your reservation date has been rescheduled.")
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                }
-                            });
-                    AlertDialog alert1 = builder.create();
-                    //Setting the title manually
-                    alert1.setTitle("Reschedule Reservation");
-                    alert1.show();
-                }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData5.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("A reservation may be \"Pending\" because the establishment needs to respond to a reservation request. " +
-                            "\nAn establishment has 24 hours to accept or decline the request. " +
-                            "\nThe status for your reservation will be \"Pending\" until the establishments responds. " +
-                            "\nDuring this time, you can also contact the establishment through email to approve your request. ")
+                    builder.setMessage("Tap the fourth button at the bottom navigation. You will be redirected to the Reservation History screen. Afterwards," +
+                                    "just tap the View Reservation History button. To view reservations both Completed and Cancelled.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -243,10 +228,9 @@ public class HelpCenter extends AppCompatActivity {
                     //Setting the title manually
                     alert1.setTitle("Reservation History");
                     alert1.show();
-                }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData6.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("Upon cancelling a reservation, one must check first the status of their reservations. " +
-                            "\nIf the establishment has already confirmed it, then it’s subject to their cancellation policy (cancellation can be done 3 days before the reservation date " +
-                            "\n\nIf it’s still pending, you can cancel, and you won’t be charged for the reservation/transaction fees on your next reservation.")
+                }else if(reserveManage.equals(listDataHeader.get(groupPosition)) && reserveManageData5.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
+                    builder.setMessage("If you are already in the Reservation History screen, you will see that each reservation has icons beside them." +
+                            " Just tap the delete icon so you can delete the reservation from the Reservation History.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -257,9 +241,7 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Delete Reservation");
                     alert1.show();
                 }else if(promoDealsManage.equals(listDataHeader.get(groupPosition)) && promoDealsManageData1.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))){
-                    builder.setMessage("In every establishment, the cost of a certain offer, services or products may vary." +
-                            "\n\nIn order to know the specific pricing and fees, you can navigate through the application, " +
-                            "by clicking a specific establishment. The pricing and fees will be found on the details.")
+                    builder.setMessage("Tap the Promos and Deals button in the SetUp Establishment screen to view your establishment's Promos and Deals.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -270,8 +252,10 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("View Promo and Deals");
                     alert1.show();
                 }else if(promoDealsManage.equals(listDataHeader.get(groupPosition)) && promoDealsManageData2.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("Pakigsa-Bot App collects a transaction fee for every transaction that will take place on the application. " +
-                            "\nThe standard cost of the transaction fee is P100")
+                    builder.setMessage("(1) Tap the Promos and Deals button in the SetUp Establishment screen." +
+                            "\n(2) Tap the (+) to add promos and deals." +
+                            "\n(3) Input the necessary details." +
+                            "\n(4) Tap the Save button to save.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -282,10 +266,8 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Add Promo and Deals");
                     alert1.show();
                 }else if(promoDealsManage.equals(listDataHeader.get(groupPosition)) && promoDealsManageData3.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("Paying and communicating through Airbnb helps ensure that you're protected under all of our " +
-                            "Establishment and customer safeguards. You can pay the fees after you have inputted all the necessary " +
-                            "details needed for the reservation. Moreover, you cannot reserve a slot on a specific establishment" +
-                            " if you did not pay for the fees. Hence, you will be prompted to pay before you can proceed to reserve.")
+                    builder.setMessage("If you are already in the Promos and Deals screen, you will see that each promo and deals have icons beside them." +
+                            " Just tap the (i) icon so you can see the details. You can modify the details then tap Update button to save the changes.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -296,9 +278,8 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Edit Promo and Deals");
                     alert1.show();
                 }else if(promoDealsManage.equals(listDataHeader.get(groupPosition)) && promoDealsManageData4.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("You cannot request a refund on the Pakigsa-Bot App. This is being stated on the " +
-                            "establishment's reservation’s cancellation policy. If your reservation has been declined " +
-                            "or cancelled, you don't need to pay for the transaction fee on your next reservation.")
+                    builder.setMessage("If you are already in the Promos and Deals screen, you will see that each promo and deals have icons beside them." +
+                            " Just tap the delete icon so you can delete the  promo  or deal.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -309,10 +290,10 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Delete Promo and Deals");
                     alert1.show();
                 }else if(estAccount.equals(listDataHeader.get(groupPosition)) && estAccountData1.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("Deals, Discounts and Vouchers are not convertible to cash. Hence, discounts and vouchers will only " +
-                            "be applicable either in free of transaction fees or acquire premium features. " +
-                            "\n\nTo see the premium features, you can navigate through your profile and " +
-                            "see the premium subscription details and terms.")
+                    builder.setMessage("Signing up  or Creating an account is easy. You just have to subscribe to the Pakigsa-Bot App which costs Php 100 monthly." +
+                            " After paying, you must input your credentials on the Sign Up Page of " +
+                            "the Pakigsa-Bot Application. Additionally, before creating an account, you have to accept the Pakigsa-Bot Community Commitment" +
+                            " or Agreement.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -323,19 +304,6 @@ public class HelpCenter extends AppCompatActivity {
                     alert1.setTitle("Creating an Account");
                     alert1.show();
                 }else if(estAccount.equals(listDataHeader.get(groupPosition)) && estAccountData2.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("Signing up  or Creating an account is free. You just have to input your credentials on the Sign Up Page of " +
-                            "the Pakigsa-Bot Application. Additionally, before creating an account, you have to accept the Pakigsa-Bot Community Commitment" +
-                            " or Agreement.")
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                }
-                            });
-                    AlertDialog alert1 = builder.create();
-                    //Setting the title manually
-                    alert1.setTitle("Managing Account");
-                    alert1.show();
-                }else if(estAccount.equals(listDataHeader.get(groupPosition)) && estAccountData3.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
                     builder.setMessage("You can edit your account details, as well as some information on your public profile, from your Profile section." +
                             "\nYou can also reset your password on the profile section. " +
                             "\n\nIn the event that you have forgotten your password, you just have to click the \"Forgot Password\", afterwhich, you will receive" +
@@ -347,39 +315,22 @@ public class HelpCenter extends AppCompatActivity {
                             });
                     AlertDialog alert1 = builder.create();
                     //Setting the title manually
+                    alert1.setTitle("Managing Account");
+                    alert1.show();
+                }else if(estAccount.equals(listDataHeader.get(groupPosition)) && estAccountData3.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
+                    builder.setMessage("You can subscribe to the Pakigsa-Bot application anytime. " +
+                            "\nYou can upgrade to Premium for just P459 a month. " +
+                            "\n\nIt includes added privileges such as Generating Monthly Reservations Report to help you manage and track reservations.")
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                }
+                            });
+                    AlertDialog alert1 = builder.create();
+                    //Setting the title manually
                     alert1.setTitle("Account Subscription");
                     alert1.show();
                 }else if(estAccount.equals(listDataHeader.get(groupPosition)) && estAccountData4.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("You can subscribe to the Pakigsa-Bot application anytime. " +
-                            "\nYou can upgrade to Premium for just P459 a month. " +
-                            "\n\nIt includes the SMS Notification Reminders, Exclusive deals, discounts and vouchers, Priority Pass Badge, Can reserve upto 3 or more establishments" +
-                            " per day, Priority Concern Service Badge, and Parking Space Reservation. ")
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                }
-                            });
-                    AlertDialog alert1 = builder.create();
-                    //Setting the title manually
-                    alert1.setTitle("Account Security");
-                    alert1.show();
-                }else if(safety.equals(listDataHeader.get(groupPosition)) && safetyData.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
-                    builder.setMessage("The application allowed providers to loyal users a Loyalty Tier that " +
-                            "contained Four tiers: \n\n(1)Classic - less than 10 reservations; \n(2)Silver - 10-24 reservations; " +
-                            "\n(3)Gold - 25-44 reservations; and \n(4)Platinum - 44 or more reservations. " +
-                            "\nThese tiers came with different discounts and vouchers such as birthday vouchers, rewards, and 100% " +
-                            "off of transaction fees. \n\nAs such, these will be provided when customers maintain their reservation status " +
-                            "and complete a minimum number of reservations every six months.")
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                }
-                            });
-                    AlertDialog alert1 = builder.create();
-                    //Setting the title manually
-                    alert1.setTitle("Reporting Issues");
-                    alert1.show();
-                }else if(pakigsabot.equals(listDataHeader.get(groupPosition)) && pakigsabotData.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
                     builder.setMessage("Here’s how you can help protect your account. \n(1)Start with a solid password: " +
                             " Your account's password should be unique—preferably completely different from any other account, " +
                             "such as your email, social media, or your bank. So, if one account is compromised, " +
@@ -390,6 +341,36 @@ public class HelpCenter extends AppCompatActivity {
                             "\n(4) Always go through us: Keep all payments and communication on the Pakigsa-Bot application. " +
                             "Don't transfer funds outside Pakigsa-Bot or share your email address before a reservation is accepted. " +
                             "If someone emails you asking you to pay or accept payment offsite, contact Pakigsa-Bot administration right away.")
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                }
+                            });
+                    AlertDialog alert1 = builder.create();
+                    //Setting the title manually
+                    alert1.setTitle("Account Security");
+                    alert1.show();
+                }else if(safety.equals(listDataHeader.get(groupPosition)) && safetyData.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
+                    builder.setMessage("In the Help Center screen, you can see an email button. If you tap that, you will be redirected to a screen where you can" +
+                            " type you concern/s and directly send an email to the Pakigsa-Bot administrator to report your issue. Afterwards, just wait for a reply.")
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                }
+                            });
+                    AlertDialog alert1 = builder.create();
+                    //Setting the title manually
+                    alert1.setTitle("Reporting Issues");
+                    alert1.show();
+                }else if(pakigsabot.equals(listDataHeader.get(groupPosition)) && pakigsabotData.equals(listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition))) {
+                    builder.setMessage("Pakigsa-Bot App serves as a central platform for the accommodation business industry and its customers. \n\n" +
+                            "This application will also serve as a tool to reserve appointments or services in various business establishments. " +
+                            "Additionally, this application will have a recommender system that recommends business establishments with excellent " +
+                            "ratings and reviews according to the user's preferences. It will help the business owners to promote their services " +
+                            "to consumers as the application's primary goal. \n\nThe application will also use a notification system with the use " +
+                            "of SMS notifications to send reminders to customers regarding their reservations. " +
+                            "\n\nRegardless, with today's technology advances, this app provide online reservations for varied establishments, " +
+                            "all in one platform, thereby reducing the consumption of its users' mobile devices' storage and memory space.")
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -420,30 +401,30 @@ public class HelpCenter extends AppCompatActivity {
         listDataHeader.add("Safety");
         listDataHeader.add("About Pakigsa-Bot");
 
-        // Adding child data to Select and Reserve
+        // Adding child data to SetUp Establishment
         List<String> setUpEst = new ArrayList<String>();
-        setUpEst.add("View");
-        setUpEst.add("Add");
-        setUpEst.add("Edit");
-        setUpEst.add("Delete");
+        setUpEst.add("SetUp Establishment Location");
+        setUpEst.add("SetUp Menu Items/Services/Facilities");
+        setUpEst.add("SetUp Promos and Deals");
+        setUpEst.add("SetUp Rules");
+        setUpEst.add("SetUp Cancellation Policy");
 
-        // Adding child data to Reservations
+        // Adding child data to Reservation Management
         List<String> reservationManagement = new ArrayList<String>();
         reservationManagement.add("View Reservations");
         reservationManagement.add("Accept/Confirm Reservation");
         reservationManagement.add("Cancel Reservation");
-        reservationManagement.add("Reschedule Reservation");
         reservationManagement.add("Reservation History");
         reservationManagement.add("Delete Reservation");
 
-        // Adding child data to Payments, Price, Refunds
+        // Adding child data to Promos and Deals Management
         List<String> promoDealsManagement = new ArrayList<String>();
         promoDealsManagement.add("View Promo and Deals");
         promoDealsManagement.add("Add Promo and Deals");
         promoDealsManagement.add("Edit Promo and Deals");
         promoDealsManagement.add("Delete Promo and Deals");
 
-        // Adding child data to Account
+        // Adding child data to Establishment Account
         List<String> establishmentAccount = new ArrayList<String>();
         establishmentAccount.add("Creating an Account");
         establishmentAccount.add("Managing Account");

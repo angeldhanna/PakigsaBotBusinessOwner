@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.022">
 
         <ImageView
-            android:id="@+id/backBtnAddFoodCafe"
+            android:id="@+id/backPlotBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -88,62 +88,68 @@
     </LinearLayout>
 
 
-    <LinearLayout
-        android:id="@+id/estLatLongLblLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="316dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/setLocationBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+    <TextView
+        android:id="@+id/estLocLatitude"
+        android:layout_width="133dp"
+        android:layout_height="46dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/plotEstLocationLayout"
-        app:layout_constraintVertical_bias="0.217">
+        app:layout_constraintTop_toBottomOf="@+id/latitudeLbl" />
 
-        <TextView
-            android:id="@+id/estLocLatitude"
-            android:layout_width="123dp"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="5dp"
-            android:textAlignment="center" />
-
-        <TextView
-            android:id="@+id/estLocLongitude"
-            android:layout_width="119dp"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="35dp"
-            android:layout_marginTop="5dp"
-            android:textAlignment="center" />
-
-    </LinearLayout>
+    <TextView
+        android:id="@+id/estLocLongitude"
+        android:layout_width="123dp"
+        android:layout_height="44dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitudeLbl" />
 
     <Button
         android:id="@+id/setLocationBtn"
         android:layout_width="204dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginTop="120dp"
         android:backgroundTint="@color/darkgreen"
         android:text="SET LOCATION"
         android:textColor="@color/purple"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapLocationLayout" />
+
+    <Button
+        android:id="@+id/saveEstLocationBtn"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="SAVE LOCATION"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setLocationBtn" />
 
     <TextView
         android:id="@+id/latitudeLbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Latitude"
         android:textColor="@color/black"
 
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapLocationLayout" />
 
@@ -151,12 +157,13 @@
         android:id="@+id/longitudeLbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Longitude"
         android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/latitudeLbl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapLocationLayout" />
 
 
