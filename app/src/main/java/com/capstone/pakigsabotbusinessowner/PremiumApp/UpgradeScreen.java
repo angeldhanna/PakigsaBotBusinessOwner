@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.capstone.pakigsabotbusinessowner.BuildConfig;
@@ -55,6 +56,7 @@ public class UpgradeScreen extends AppCompatActivity {
 
     Button agreeContinueBtn, payBtn;
     ImageView backBtnProfile;
+    TextView subsTerms;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     FirebaseUser user;
@@ -153,6 +155,13 @@ public class UpgradeScreen extends AppCompatActivity {
                 }
         );
 
+        subsTerms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                subscriptionTerms();
+            }
+        });
+
         backBtnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -166,6 +175,12 @@ public class UpgradeScreen extends AppCompatActivity {
         backBtnProfile = findViewById(R.id.backBtnProfile);
         payPalButton = findViewById(R.id.payPalButton);
         payPalButton.setVisibility(View.GONE);
+        subsTerms = findViewById(R.id.termsTxt);
+    }
+
+    private void subscriptionTerms() {
+        Intent intent = new Intent(getApplicationContext(), SubscriptionTerms.class);
+        startActivity(intent);
     }
 
     private void previous(){

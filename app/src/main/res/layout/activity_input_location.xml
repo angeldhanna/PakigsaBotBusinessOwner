@@ -80,7 +80,7 @@
         android:id="@+id/longitudeInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:fontFamily="@font/poppins_medium"
         android:hint="location longitude"
@@ -88,9 +88,10 @@
         android:text=""
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/latitudeInput" />
+        app:layout_constraintTop_toBottomOf="@+id/latitudeInput"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/setLocationBtn"
@@ -119,7 +120,8 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plotTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/plotTxt"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

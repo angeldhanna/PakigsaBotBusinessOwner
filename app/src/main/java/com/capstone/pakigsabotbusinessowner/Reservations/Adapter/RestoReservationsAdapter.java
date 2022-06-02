@@ -362,7 +362,7 @@ public class RestoReservationsAdapter extends RecyclerView.Adapter<RestoReservat
                 completed.put("completeReserv_childPax", "0");
                 completed.put("completeReserv_infantPax", "0");
                 completed.put("completeReserv_petPax", "0");
-                completed.put("completeReserv_pax", "1");
+                completed.put("completeReserv_pax", reservationList.getReservePax());
                 completed.put("completeReserv_name", reservationList.getReserveName());
                 completed.put("completeReserv_notes", reservationList.getNotes());
                 completed.put("completeReserv_timeCheckIn", reservationList.getReserveTime());

@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PakigsaBotBusinessOwner">
         <activity
+            android:name=".PremiumApp.SubscriptionTerms"
+            android:exported="true" />
+        <activity
             android:name=".Feedback.ViewFeedbackResto"
             android:exported="true" />
         <activity
