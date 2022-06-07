@@ -17,7 +17,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_reservations"
+            android:src="@drawable/ic_reservations_bo"
             app:civ_border_color="@color/purple"
             app:civ_border_width="2dp" />
 
@@ -121,7 +121,7 @@
             android:layout_marginLeft="185dp"
             android:layout_toEndOf="@+id/reserveTimeTV"
             android:layout_toRightOf="@id/reserveIcon"
-            app:srcCompat="@drawable/ic_info" />
+            app:srcCompat="@drawable/ic_info_bo" />
 
         <ImageView
             android:id="@+id/deleteRHistoryBtn"
@@ -131,7 +131,7 @@
             android:layout_marginStart="34dp"
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/reservedNameTV"
-            app:srcCompat="@drawable/ic_delete" />
+            app:srcCompat="@drawable/ic_delete_bo" />
 
 
     </RelativeLayout>

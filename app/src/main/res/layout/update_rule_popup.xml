@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:hint=""
         android:textSize="10sp"
-        android:drawableStart="@drawable/ic_policy"
+        android:drawableStart="@drawable/ic_policy_bo"
         android:fontFamily="@font/poppins_light"
         android:singleLine="true"
         android:textColor="@color/black"

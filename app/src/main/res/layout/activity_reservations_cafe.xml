@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".Reservations.ReservationsCafe">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".ReservationsBO.ReservationsCafe">
 
     <ImageView
         android:id="@+id/whiteRect"
         android:layout_width="323dp"
         android:layout_height="175dp"
-        android:background="@drawable/white_rect"
+        android:background="@drawable/white_rect_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.03"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <TextView
         android:id="@+id/reservationsTxt"
@@ -210,7 +210,7 @@
         android:id="@+id/infoJan11"
         android:layout_width="26dp"
         android:layout_height="29dp"
-        android:src="@drawable/ic_info"
+        android:src="@drawable/ic_info_bo"
         app:layout_constraintBottom_toBottomOf="@+id/whiteRect"
         app:layout_constraintEnd_toEndOf="@+id/whiteRect"
         app:layout_constraintHorizontal_bias="0.576"
@@ -246,7 +246,7 @@
         android:id="@+id/imageView7"
         android:layout_width="26dp"
         android:layout_height="29dp"
-        android:src="@drawable/ic_info"
+        android:src="@drawable/ic_info_bo"
         app:layout_constraintBottom_toBottomOf="@+id/whiteRect"
         app:layout_constraintEnd_toEndOf="@+id/whiteRect"
         app:layout_constraintHorizontal_bias="0.576"
@@ -274,7 +274,7 @@
         android:id="@+id/whiteRectImageView"
         android:layout_width="328dp"
         android:layout_height="314dp"
-        android:src="@drawable/white_rect2"
+        android:src="@drawable/white_rect2_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -299,7 +299,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:background="@color/purple"
-        android:src="@drawable/ic_reserve"
+        android:src="@drawable/ic_reserve_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

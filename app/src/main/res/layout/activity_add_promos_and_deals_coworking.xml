@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".CoworkingSpace.AddPromosAndDealsCoworking">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".CoworkingSpaceBO.AddPromosAndDealsCoworking">
 
     <ImageView
         android:id="@+id/backBtnAddPromoDeals"
@@ -17,13 +17,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="40dp"
         android:layout_height="41dp"
-        android:src="@drawable/ic_services"
+        android:src="@drawable/ic_services_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addCoSpacePADTxt"
         app:layout_constraintVertical_bias="0.134"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/coSpacePADNameTxt"
@@ -97,7 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/coSpacePADNameLayout"
         app:layout_constraintVertical_bias="0.029"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/coSpacePADDescTxt"
@@ -121,7 +121,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/coSpacePADDescLayout"
         app:layout_constraintVertical_bias="0.056"
-        app:startIconDrawable="@drawable/ic_calendar">
+        app:startIconDrawable="@drawable/ic_calendar_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/coSpacePADESDTxt"
@@ -147,7 +147,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/coSpacePADESDLayout"
         app:layout_constraintVertical_bias="0.056"
-        app:startIconDrawable="@drawable/ic_calendar">
+        app:startIconDrawable="@drawable/ic_calendar_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/coSpacePADEEDTxt"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/homebg_customer_alert"
-    tools:context=".NotificationAlerts.CustomerCancelled">
+    tools:context=".NotificationAlertsBO.CustomerCancelled">
 
     <ImageButton
         android:id="@+id/profileBtn"
@@ -13,7 +13,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:background="@color/darkgreen"
-        android:src="@drawable/ic_profile"
+        android:src="@drawable/ic_profile_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/currentDateTxt"
         app:layout_constraintHorizontal_bias="0.12"
@@ -63,7 +63,7 @@
         android:layout_height="59dp"
         android:layout_marginStart="5dp"
         android:background="@color/darkgreen"
-        android:src="@drawable/sign_out"
+        android:src="@drawable/sign_out_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.741"
@@ -92,7 +92,7 @@
         android:layout_width="362dp"
         android:layout_height="194dp"
         android:background="@color/peach"
-        android:src="@drawable/no_upcoming"
+        android:src="@drawable/no_upcoming_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.612"
@@ -156,7 +156,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/noUpcomingRsrvBtn"
         app:layout_constraintVertical_bias="0.036"
-        app:srcCompat="@drawable/white_rect_light3" />
+        app:srcCompat="@drawable/white_rect_light3_bo" />
 
     <TextView
         android:id="@+id/cancelSuccessTxt"
@@ -196,7 +196,7 @@
         app:layout_constraintStart_toStartOf="@+id/detail_rectCancelSuccess"
         app:layout_constraintTop_toTopOf="@+id/detail_rectCancelSuccess"
         app:layout_constraintVertical_bias="0.231"
-        app:srcCompat="@drawable/ic_notification" />
+        app:srcCompat="@drawable/ic_notification_bo" />
 
     <ImageView
         android:id="@+id/confirmImageView"

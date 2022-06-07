@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".Resort.AddFacilityResort">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".ResortBO.AddFacilityResort">
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/addRFPicture"
@@ -14,7 +14,7 @@
         android:maxWidth="200dp"
         android:maxHeight="200dp"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_imageicon"
+        android:src="@drawable/ic_imageicon_bo"
         android:layout_centerVertical="true"
         app:riv_border_color="@color/white"
         app:riv_border_width="2dip"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="@+id/addRFPicture"
         app:layout_constraintTop_toTopOf="@+id/addRFPicture"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_add_photo"
+        app:srcCompat="@drawable/ic_add_photo_bo"
         app:tint="@color/gray" />
 
     <ImageView
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <TextView
         android:id="@+id/addRoomTxt"
@@ -107,7 +107,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTxt"
         app:layout_constraintVertical_bias="0.0"
-        android:drawableStart="@drawable/ic_capacity"
+        android:drawableStart="@drawable/ic_capacity_bo"
         android:fontFamily="@font/poppins_light"
         android:inputType="number"
         android:textColor="@color/black"
@@ -124,7 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numOfPersonTxt"
         app:layout_constraintVertical_bias="0.0"
-        android:drawableStart="@drawable/ic_services"
+        android:drawableStart="@drawable/ic_services_bo"
         android:fontFamily="@font/poppins_light"
         android:inputType="text"
         android:textColor="@color/black"
@@ -141,7 +141,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descTxt"
         app:layout_constraintVertical_bias="0.056"
-        android:drawableStart="@drawable/ic_rate"
+        android:drawableStart="@drawable/ic_rate_bo"
         android:fontFamily="@font/poppins_light"
         android:inputType="numberDecimal"
         android:textColor="@color/black"

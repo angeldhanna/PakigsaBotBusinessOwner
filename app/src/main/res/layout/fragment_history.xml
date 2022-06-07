@@ -5,8 +5,8 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".NavigationFragments.HistoryFragment">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".NavigationFragmentsBO.HistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -14,7 +14,7 @@
         android:id="@+id/imageView6"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:src="@drawable/ic_history"
+        android:src="@drawable/ic_history_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.13"
@@ -40,7 +40,7 @@
         android:id="@+id/imageView27"
         android:layout_width="230dp"
         android:layout_height="261dp"
-        android:src="@drawable/reservation_history"
+        android:src="@drawable/reservation_history_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

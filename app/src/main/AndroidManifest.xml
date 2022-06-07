@@ -21,22 +21,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PakigsaBotBusinessOwner">
         <activity
-            android:name=".PremiumApp.SubscriptionTerms"
+            android:name=".EstCancellationPolicyBO.AddRestoCancelPol"
             android:exported="true" />
         <activity
-            android:name=".Feedback.ViewFeedbackResto"
+            android:name=".PremiumAppBO.SubscriptionTerms"
             android:exported="true" />
         <activity
-            android:name=".Feedback.LoadFeedback"
+            android:name=".FeedbackBO.ViewFeedbackResto"
             android:exported="true" />
         <activity
-            android:name=".Feedback.FeedbackAdapter"
+            android:name=".FeedbackBO.LoadFeedback"
             android:exported="true" />
         <activity
-            android:name=".Restaurant.InEstLocationOrNot"
+            android:name=".RestaurantBO.InEstLocationOrNot"
             android:exported="true" />
         <activity
-            android:name=".Services.InputLocation"
+            android:name=".ServicesBO.InputLocation"
             android:exported="true" />
 
         <meta-data
@@ -47,223 +47,223 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".Restaurant.PlotLocationResto"
+            android:name=".RestaurantBO.PlotLocationResto"
             android:exported="true" />
         <activity
-            android:name=".ReservationHistory.ViewReservationHistoryRestaurant"
+            android:name=".ReservationHistoryBO.ViewReservationHistoryRestaurant"
             android:exported="true" />
         <activity
-            android:name=".ReservationHistory.ViewReservationHistoryResort"
+            android:name=".ReservationHistoryBO.ViewReservationHistoryResort"
             android:exported="true" />
         <activity
-            android:name=".EstablishmentRules.DentalClinic.EstRulesDentalClinic"
+            android:name=".EstablishmentRulesBO.DentalClinic.EstRulesDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".EstablishmentRules.DentalClinic.AddEstRulesDentalClinic"
+            android:name=".EstablishmentRulesBO.DentalClinic.AddEstRulesDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsSpa"
+            android:name=".ReservationsBO.ViewReservationsSpa"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsResto"
+            android:name=".ReservationsBO.ViewReservationsResto"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsCafe"
+            android:name=".ReservationsBO.ViewReservationsCafe"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsResort"
+            android:name=".ReservationsBO.ViewReservationsResort"
             android:exported="true" />
         <activity
-            android:name=".EstablishmentRules.Resto.AddEstRulesResto"
+            android:name=".EstablishmentRulesBO.Resto.AddEstRulesResto"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsEyeClinic"
+            android:name=".ReservationsBO.ViewReservationsEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".ReservationHistory.ViewReservationHistoryEyeClinic"
+            android:name=".ReservationHistoryBO.ViewReservationHistoryEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".Cafe.MenuCafe"
+            android:name=".CafeBO.MenuCafe"
             android:exported="true" />
         <activity
-            android:name=".ReservationHistory.ViewReservationHistoryDentalClinic"
+            android:name=".ReservationHistoryBO.ViewReservationHistoryDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".Reservations.LoadReservations"
+            android:name=".ReservationsBO.LoadReservations"
             android:exported="true" />
         <activity
-            android:name=".ReservationHistory.LoadReservationHistory"
+            android:name=".ReservationHistoryBO.LoadReservationHistory"
             android:exported="true" />
         <activity
-            android:name=".ServiceHours.ServiceHours"
+            android:name=".ServiceHoursBO.ServiceHours"
             android:exported="true" />
         <activity
-            android:name=".Reservations.EmailToCustomer"
+            android:name=".ReservationsBO.EmailToCustomer"
             android:exported="true" />
         <activity
-            android:name=".DentalClinic.Reservations.ReserveConfirmMessageDC"
+            android:name=".DentalClinicBO.Reservations.ReserveConfirmMessageDC"
             android:exported="true" />
         <activity
-            android:name=".EmailMessage.EmailMessageLayout"
+            android:name=".EmailMessageBO.EmailMessageLayout"
             android:exported="true" />
         <activity
-            android:name=".HelpCenter.HelpCenter"
+            android:name=".HelpCenterBO.HelpCenter"
             android:exported="true" />
         <activity
-            android:name=".Cafe.SettingUpEstablishmentCafe"
+            android:name=".CafeBO.SettingUpEstablishmentCafe"
             android:exported="true" />
         <activity
-            android:name=".Cafe.AddPromoAndDealsCafe"
+            android:name=".CafeBO.AddPromoAndDealsCafe"
             android:exported="true" />
         <activity
-            android:name=".Cafe.PromoAndDeals.PromoAndDealsCafe"
+            android:name=".CafeBO.PromoAndDeals.PromoAndDealsCafe"
             android:exported="true" />
         <activity
-            android:name=".Cafe.AddMenuItemCafe"
+            android:name=".CafeBO.AddMenuItemCafe"
             android:exported="true" />
         <activity
-            android:name=".Restaurant.SettingUpEstablishmentRestaurant"
+            android:name=".RestaurantBO.SettingUpEstablishmentRestaurant"
             android:exported="true" />
         <activity
-            android:name=".Restaurant.AddPromoAndDealsRestaurant"
+            android:name=".RestaurantBO.AddPromoAndDealsRestaurant"
             android:exported="true" />
         <activity
-            android:name=".Restaurant.PromoAndDeals.PromoAndDealsRestaurant"
+            android:name=".RestaurantBO.PromoAndDeals.PromoAndDealsRestaurant"
             android:exported="true" />
         <activity
-            android:name=".EyeClinic.SettingUpEstablishmentEyeClinic"
+            android:name=".EyeClinicBO.SettingUpEstablishmentEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".EyeClinic.AddPromoAndDealsEyeClinic"
+            android:name=".EyeClinicBO.AddPromoAndDealsEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".EyeClinic.PromoAndDeals.PromoAndDealsEyeClinic"
+            android:name=".EyeClinicBO.PromoAndDeals.PromoAndDealsEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".Resort.SettingUpEstablishmentResort"
+            android:name=".ResortBO.SettingUpEstablishmentResort"
             android:exported="true" />
         <activity
-            android:name=".Resort.AddPromoAndDealsResort"
+            android:name=".ResortBO.AddPromoAndDealsResort"
             android:exported="true" />
         <activity
-            android:name=".Resort.PromoAndDealsResort"
+            android:name=".ResortBO.PromoAndDealsResort"
             android:exported="true" />
         <activity
-            android:name=".DentalClinic.SettingUpEstablishmentDentalClinic"
+            android:name=".DentalClinicBO.SettingUpEstablishmentDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".DentalClinic.AddPromoAndDealsDentalClinic"
+            android:name=".DentalClinicBO.AddPromoAndDealsDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".DentalClinic.PromoAndDeals.PromoAndDealsDentalClinic"
+            android:name=".DentalClinicBO.PromoAndDeals.PromoAndDealsDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".Reservations.ViewReservationsDentalClinic"
+            android:name=".ReservationsBO.ViewReservationsDentalClinic"
             android:exported="true" />
         <activity
-            android:name=".EyeClinic.AddServiceEyeClinic"
+            android:name=".EyeClinicBO.AddServiceEyeClinic"
             android:exported="true" />
         <activity
-            android:name=".Profile.ChangePassword"
+            android:name=".ProfileBO.ChangePassword"
             android:exported="false" />
         <activity
-            android:name=".Services.LoadServices"
+            android:name=".ServicesBO.LoadServices"
             android:exported="false" />
         <activity
-            android:name=".Services.ServicesEyeClinic"
+            android:name=".ServicesBO.ServicesEyeClinic"
             android:exported="false" />
         <activity
-            android:name=".Restaurant.MenuRestaurant"
+            android:name=".RestaurantBO.MenuRestaurant"
             android:exported="false" />
         <activity
-            android:name=".SignUpRequirement.PaySubscription"
+            android:name=".SignUpRequirementBO.PaySubscription"
             android:exported="false" />
         <activity
-            android:name=".PremiumApp.UpgradeScreen"
+            android:name=".PremiumAppBO.UpgradeScreen"
             android:exported="false" />
         <activity
-            android:name=".PremiumApp.GoPremiumWS"
+            android:name=".PremiumAppBO.GoPremiumWS"
             android:exported="false" />
         <activity
-            android:name=".Services.EditServiceInternetCafe"
+            android:name=".ServicesBO.EditServiceInternetCafe"
             android:exported="false" />
         <activity
-            android:name=".Services.AddServiceInternetCafe"
+            android:name=".ServicesBO.AddServiceInternetCafe"
             android:exported="false" />
         <activity
-            android:name=".Services.AddServiceSpaSalon"
+            android:name=".ServicesBO.AddServiceSpaSalon"
             android:exported="false" />
         <activity
-            android:name=".Services.EditProcedureDC"
+            android:name=".ServicesBO.EditProcedureDC"
             android:exported="false" />
         <activity
-            android:name=".Services.ServicesDentalClinic"
+            android:name=".ServicesBO.ServicesDentalClinic"
             android:exported="false" />
         <activity
-            android:name=".DentalClinic.AddServiceDentalClinic"
+            android:name=".DentalClinicBO.AddServiceDentalClinic"
             android:exported="false" />
         <activity
-            android:name=".Services.EditFoodProdResto"
+            android:name=".ServicesBO.EditFoodProdResto"
             android:exported="false" />
         <activity
-            android:name=".Services.EditServiceResto"
+            android:name=".ServicesBO.EditServiceResto"
             android:exported="false" />
         <activity
-            android:name=".Restaurant.AddFoodResto"
+            android:name=".RestaurantBO.AddFoodResto"
             android:exported="false" />
         <activity
-            android:name=".Services.AddServiceResto"
+            android:name=".ServicesBO.AddServiceResto"
             android:exported="false" />
         <activity
-            android:name=".Services.ServicesResort"
+            android:name=".ServicesBO.ServicesResort"
             android:exported="false" />
         <activity
-            android:name=".Services.EditServiceResort"
+            android:name=".ServicesBO.EditServiceResort"
             android:exported="false" />
         <activity
-            android:name=".Services.AddServiceResort"
+            android:name=".ServicesBO.AddServiceResort"
             android:exported="false" />
         <activity
-            android:name=".SignUpRequirement.AgreementScreen"
+            android:name=".SignUpRequirementBO.AgreementScreen"
             android:exported="false" />
         <activity
-            android:name=".EstablishmentRules.Resto.EstRulesResto"
+            android:name=".EstablishmentRulesBO.Resto.EstRulesResto"
             android:exported="false" />
         <activity
-            android:name=".Profile.Profile"
+            android:name=".ProfileBO.Profile"
             android:exported="false" />
         <activity
-            android:name=".NavBar.BottomNavigation"
+            android:name=".NavBarBO.BottomNavigation"
             android:exported="false" />
         <activity
-            android:name=".SignUpRequirement.ClassicSubsTerms"
+            android:name=".SignUpRequirementBO.ClassicSubsTerms"
             android:exported="false" />
         <activity
-            android:name=".MonthlySubscription.MonthlySubsTerms"
+            android:name=".MonthlySubscriptionBO.MonthlySubsTerms"
             android:exported="false" />
         <activity
-            android:name=".MonthlySubscription.PayMonthlySub"
+            android:name=".MonthlySubscriptionBO.PayMonthlySub"
             android:exported="false" />
         <activity
-            android:name=".Resort.AddFacilityResort"
+            android:name=".ResortBO.AddFacilityResort"
             android:exported="false" />
         <activity
-            android:name=".Resort.ResortFacilities"
+            android:name=".ResortBO.ResortFacilities"
             android:exported="false" />
         <activity
-            android:name=".NotificationAlerts.CustomerResched"
+            android:name=".NotificationAlertsBO.CustomerResched"
             android:exported="false" />
         <activity
-            android:name=".NotificationAlerts.CustomerCancelled"
+            android:name=".NotificationAlertsBO.CustomerCancelled"
             android:exported="false" />
         <activity
-            android:name=".Resort.AddRoomResort"
+            android:name=".ResortBO.AddRoomResort"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".SignUpBO"
             android:exported="true" />
         <activity
-            android:name=".SignIn"
+            android:name=".SignInBO"
             android:exported="true" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
@@ -278,7 +278,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityBO"
             android:exported="true" />
     </application>
 

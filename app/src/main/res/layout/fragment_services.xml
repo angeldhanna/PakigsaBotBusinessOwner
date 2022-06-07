@@ -5,14 +5,14 @@
     android:id="@+id/frameLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".NavigationFragments.ServicesFragment">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".NavigationFragmentsBO.ServicesFragment">
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="40dp"
         android:layout_height="41dp"
-        android:src="@drawable/ic_services"
+        android:src="@drawable/ic_services_bo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"

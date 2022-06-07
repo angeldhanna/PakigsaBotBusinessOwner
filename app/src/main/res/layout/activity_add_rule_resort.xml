@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".Resort.AddRuleResort">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".ResortBO.AddRuleResort">
 
     <ImageView
         android:id="@+id/backBtn"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <TextView
         android:id="@+id/addRoomTxt"
@@ -50,7 +50,7 @@
         android:id="@+id/ruleTxt"
         android:layout_width="320dp"
         android:layout_height="269dp"
-        android:drawableTop="@drawable/ic_policy"
+        android:drawableTop="@drawable/ic_policy_bo"
         android:drawablePadding="10dp"
         android:fontFamily="@font/poppins_light"
         android:gravity="start"

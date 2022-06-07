@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".Services.EditServiceResort">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".ServicesBO.EditServiceResort">
 
     <ImageView
         android:id="@+id/backBtnEditRoom"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -121,7 +121,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameRoomLayout"
         app:layout_constraintVertical_bias="0.056"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/numOfPersonTxt"
@@ -147,7 +147,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numOfPersonLayout"
         app:layout_constraintVertical_bias="0.056"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/bedsTxt"
@@ -174,7 +174,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bedsLayout"
         app:layout_constraintVertical_bias="0.056"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/priceTxt"

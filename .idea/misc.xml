@@ -3,28 +3,76 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable-v24/ic_user.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_accountbox_bo.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_add.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_arrow_down.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_baseline_settings_applications_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_calendar.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_check.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_close.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_days.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_delete.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_diamond.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_edit.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_email.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_est.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_fee.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_help.xml" value="0.2755208333333333" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_history_bo.xml" value="0.1" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_imageicon.xml" value="0.1" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_info.xml" value="0.1" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_job.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_notification.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_payment.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_photo.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_policy.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_rate.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_search.xml" value="0.22685185185185186" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/drawable/ic_wolimits.xml" value="0.22685185185185186" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_est_rules_dental_clinic.xml" value="0.1408514492753623" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_est_rules_resto.xml" value="0.1" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_food_resto.xml" value="0.22554347826086957" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_policy_coworking_space.xml" value="0.10960144927536232" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_promos_and_deals_salon.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_resto_cancel_pol.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_add_service_salon.xml" value="0.1" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_cancel_reservation.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_cancellation_reason.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_cancellation_success.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_change_password.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_classic_subs_terms.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_confirm_reservation_success.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_customer_cancelled.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_customer_resched.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_email_message_layout.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_email_to_customer.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_est_rules_dental_clinic.xml" value="0.1" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_est_rules_resto.xml" value="0.13385416666666666" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_feedback_adapter.xml" value="0.1408514492753623" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_go_premium_ws.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_help_center.xml" value="0.4" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_imgs.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_in_est_location_or_not.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_input_location.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_input_locattion.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_load_feedback.xml" value="0.20471014492753623" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_load_services.xml" value="0.20471014492753623" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_menu_restaurant.xml" value="0.14719202898550723" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_monthly_subs_terms.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_pay_monthly_sub.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_pay_subscription.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_plot_location_resto.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_reservation_wt_cancel.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_reserve_confirm_message_dc.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_setting_up_establishment_dental_clinic.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_setting_up_establishment_restaurant.xml" value="0.259375" />
-        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_sign_in.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_subscription_terms.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_upgrade_screen.xml" value="0.4" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_view_feedback_resto.xml" value="0.264" />
@@ -35,11 +83,15 @@
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_view_reservations_dental_clinic.xml" value="0.1" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_view_reservations_resto.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/activity_view_reservations_spa.xml" value="0.17980072463768115" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/cafe_menu_items.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/cust_feedback_items.xml" value="0.4" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/fragment_helpcenter.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/fragment_home_bo.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/list_group_help.xml" value="0.259375" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/reservation_details_popup.xml" value="0.1" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/reservations_items.xml" value="0.1" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/resort_rules_item.xml" value="0.259375" />
+        <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/resto_cancelpol_items.xml" value="0.21851851851851853" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/resto_menu_items.xml" value="0.4" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/resto_reservation_details_popup.xml" value="0.264" />
         <entry key="..\:/FILES/CAPSTONE/MAY 27 v2/PakigsaBotBusinessOwner/PakigsaBotBusinessOwner/app/src/main/res/layout/rules_items.xml" value="0.4" />

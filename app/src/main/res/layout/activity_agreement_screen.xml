@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpRequirement.AgreementScreen">
+    tools:context=".SignUpRequirementBO.AgreementScreen">
 
     <ImageView
         android:id="@+id/imageView29"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.119"
-        app:srcCompat="@drawable/pakigsabot_logo_official" />
+        app:srcCompat="@drawable/pakigsabot_logo_official_bo" />
 
     <ImageView
         android:id="@+id/backBtn"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.054"
-        app:srcCompat="@drawable/back_arrow" />
+        app:srcCompat="@drawable/back_arrow_bo" />
 
     <TextView
         android:id="@+id/agreementTxt"

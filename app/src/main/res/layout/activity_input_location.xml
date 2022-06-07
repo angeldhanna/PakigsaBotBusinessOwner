@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".Services.InputLocation">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".ServicesBO.InputLocation">
 
     <LinearLayout
         android:id="@+id/plotEstLocationLayout"
@@ -29,7 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.023"
-            app:srcCompat="@drawable/ic_arrow_back" />
+            app:srcCompat="@drawable/ic_arrow_back_bo" />
 
         <TextView
             android:id="@+id/plotEstLocation"

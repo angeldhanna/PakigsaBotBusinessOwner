@@ -18,7 +18,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_imageicon"
+            android:src="@drawable/ic_imageicon_bo"
             app:civ_border_color="@color/purple"
             app:civ_border_width="2dp" />
 
@@ -106,7 +106,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="18dp"
             android:layout_toRightOf="@id/coworkingRVName"
-            app:srcCompat="@drawable/ic_delete" />
+            app:srcCompat="@drawable/ic_delete_bo" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg_white"
-    tools:context=".Reservations.EmailToCustomer">
+    android:background="@drawable/topbar_bg_white_bo"
+    tools:context=".ReservationsBO.EmailToCustomer">
 
     <ImageView
         android:id="@+id/backBtnEmail"
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <ImageView
         android:id="@+id/gmailBtn"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toEndOf="@+id/backBtnEmail"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.028"
-        app:srcCompat="@drawable/gmail_icon" />
+        app:srcCompat="@drawable/gmail_icon_bo" />
 
     <TextView
         android:id="@+id/composeTxt"

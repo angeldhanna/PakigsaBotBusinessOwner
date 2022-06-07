@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".InternetCafe.AddRulesInternetCafe">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".InternetCafeBO.AddRulesInternetCafe">
 
     <ImageView
         android:id="@+id/backBtnAddICRules"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <TextView
         android:id="@+id/addRuleTxt"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addRuleTxt"
         app:layout_constraintVertical_bias="0.084"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/iCafeRuleTxt"

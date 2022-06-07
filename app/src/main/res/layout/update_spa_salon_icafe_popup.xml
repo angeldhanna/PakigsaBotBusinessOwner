@@ -24,7 +24,7 @@
         android:hint="Name of Service"
         app:endIconMode="clear_text"
         app:errorEnabled="true"
-        app:startIconDrawable="@drawable/ic_services">
+        app:startIconDrawable="@drawable/ic_services_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/nameTxt"
@@ -64,7 +64,7 @@
         android:hint="Rate"
         app:endIconMode="clear_text"
         app:errorEnabled="true"
-        app:startIconDrawable="@drawable/ic_rate">
+        app:startIconDrawable="@drawable/ic_rate_bo">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/rateTxt"

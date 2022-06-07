@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/topbar_bg"
-    tools:context=".CoworkingSpace.AddFacilityCS">
+    android:background="@drawable/topbar_bg_bo"
+    tools:context=".CoworkingSpaceBO.AddFacilityCS">
 
     <ImageView
         android:id="@+id/addCSFacilityPic"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addFacilityTxt"
         app:layout_constraintVertical_bias="0.075"
-        app:srcCompat="@drawable/ic_imageicon" />
+        app:srcCompat="@drawable/ic_imageicon_bo" />
 
     <ImageView
         android:id="@+id/uploadCSFacilityBtn"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="@+id/addCSFacilityPic"
         app:layout_constraintTop_toTopOf="@+id/addCSFacilityPic"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_add_photo"
+        app:srcCompat="@drawable/ic_add_photo_bo"
         app:tint="@color/gray" />
 
     <ImageView
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_arrow_back" />
+        app:srcCompat="@drawable/ic_arrow_back_bo" />
 
     <TextView
         android:id="@+id/addFacilityTxt"
@@ -94,7 +94,7 @@
         android:id="@+id/maxCapTxt"
         android:layout_width="337dp"
         android:layout_height="80dp"
-        android:drawableStart="@drawable/ic_capacity"
+        android:drawableStart="@drawable/ic_capacity_bo"
         android:drawablePadding="10dp"
         android:fontFamily="@font/poppins_light"
         android:hint="Capacity"
@@ -110,7 +110,7 @@
         android:id="@+id/descTxt"
         android:layout_width="337dp"
         android:layout_height="80dp"
-        android:drawableStart="@drawable/ic_services"
+        android:drawableStart="@drawable/ic_services_bo"
         android:drawablePadding="10dp"
         android:fontFamily="@font/poppins_light"
         android:hint="Description"
@@ -126,7 +126,7 @@
         android:id="@+id/rateTxt"
         android:layout_width="337dp"
         android:layout_height="80dp"
-        android:drawableStart="@drawable/ic_rate"
+        android:drawableStart="@drawable/ic_rate_bo"
         android:drawablePadding="10dp"
         android:fontFamily="@font/poppins_light"
         android:hint="Rate"
